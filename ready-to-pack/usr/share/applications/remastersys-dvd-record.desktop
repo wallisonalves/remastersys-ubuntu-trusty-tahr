@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Remastersys DVD Record Tool
+GenericName=DVD Record Tool
+Comment=DVD Record
+Exec=gksu remastersys-dvd-record
+Icon=remastersys-dvd-record
+Terminal=false
+MultipleArgs=false
+Type=Application
+StartupNotify=true
+Categories=System;
+NotShowIn=KDE;

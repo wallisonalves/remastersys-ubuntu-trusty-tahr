@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Remastersys USB Startup Disk Tool
+GenericName=USB Startup Disk Tool
+Comment=USB Startup Disk Creator Tool
+Exec=gksu remastersys-usb-key-copy-tool
+Icon=remastersys-usb-key-copy-tool
+Terminal=false
+MultipleArgs=false
+Type=Application
+StartupNotify=true
+Categories=System;
+NotShowIn=KDE;

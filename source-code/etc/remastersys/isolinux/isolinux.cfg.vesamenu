@@ -1,0 +1,42 @@
+default vesamenu.c32
+prompt 0
+timeout 100
+
+menu title __LIVECDLABEL__
+menu background splash.png
+menu color title 1;37;44 #c0ffffff #00000000 std
+
+label live
+  menu label Try the system without installing
+  kernel /casper/vmlinuz.efi
+  append  file=/cdrom/preseed/custom.seed boot=casper casper nohd -- initrd=/casper/initrd.lz quiet splash --
+
+label xforcevesa
+  menu label Try the system with xforcevesa
+  kernel /casper/vmlinuz.efi
+  append  file=/cdrom/preseed/custom.seed boot=casper nomodeset xforcevesa casper nohd -- initrd=/casper/initrd.lz quiet splash --
+
+label install
+  menu label Install the system without experiencing
+  kernel /casper/vmlinuz.efi
+  append  file=/cdrom/preseed/custom.seed boot=casper only-ubiquity casper nohd -- initrd=/casper/initrd.lz quiet splash --
+
+label install
+  menu label OEM Install the system without experiencing (for manufacturers)
+  kernel /casper/vmlinuz.efi
+  append  file=/cdrom/preseed/custom.seed boot=casper only-ubiquity casper nohd -- initrd=/casper/initrd.lz quiet splash oem-config/enable=true --
+
+label check
+  menu label Check the integrity of the media
+  kernel /casper/vmlinuz.efi
+  append  boot=casper integrity-check initrd=/casper/initrd.lz --
+
+label memtest
+  menu label Run memtest
+  kernel /install/memtest.bin
+  append -
+
+label hd
+  menu label Exit installer
+  localboot 0x80
+  append -

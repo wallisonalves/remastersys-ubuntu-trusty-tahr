@@ -1,0 +1,7 @@
+remastersys-gtk (3.0.6) stable; urgency=low
+
+  * Unification of remastersys and remastersys-gtk in a single package
+  * deb packaging for Ubuntu
+
+  -- Wallison Alves <wallisonalvesdeoliveira@gmail.com>  Thu, 29 Sep 2016 20:27:36 -0600
+

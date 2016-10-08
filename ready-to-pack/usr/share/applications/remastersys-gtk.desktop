@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Remastersys
+GenericName=System Backup And Remasters
+Exec=gksu remastersys-gtk
+Icon=remastersys-gtk
+Terminal=false
+Type=Application
+Categories=System;
+GenericName[en]=System Backup And Remasters
+GenericName[pt_BR]=Backup Do Sistema E Remasters
+GenericName[zh_CN]=系統備份和重新錄製
+GenericName[zh_TW]=系统备份和重新录制
+GenericName[bg]=Система за архивиране и Remasters
+NotShowIn=KDE;

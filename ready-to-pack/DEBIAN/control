@@ -1,0 +1,10 @@
+Package: remastersys
+Version: 3.0.6
+Section: System
+Priority: optional
+Architecture: all
+Depends: memtest86+, coreutils, dialog, xorriso, findutils, grub-pc|grub-efi, bash, passwd, sed, squashfs-tools, casper, rsync, mount, zenity, cdrskin, eject, libdebian-installer4, os-prober, ubiquity, ubiquity-casper, ubiquity-frontend-debconf, ubiquity-frontend-kde|ubiquity-frontend-gtk, ubiquity-ubuntu-artwork, user-setup, discover, laptop-detect, syslinux, xz-utils, util-linux, xresprobe, python, python-glade2, python-vte, plymouth-x11
+Maintainer: Wallison Alves <wallisonalvesdeoliveira@gmail.com>
+Description: Remastersys for Ubuntu system, This program creates a livecd of the installed system. You can either make a distributable livecd or backup of your system. You can install the system in graphical mode with Ubiquity. For more information, please visit http://wikilivre.blogspot.com/p/remastersys.html
+Installed-size: 7100
+Homepage: http://wikilivre.blogspot.com/p/remastersys.html

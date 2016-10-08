@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: remastersys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 15:08+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Krasimir S. Stefanov <lokiisyourmaster@gmail.com>\n"
+"Language-Team: SKSS <lokiisyourmaster@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid ""
+"%(filename)s has been copied to %(grub_bg)s and is the default background "
+"for grub. Click OK to update grub with the new settings so you can see your "
+"picture on the next boot."
+msgstr ""
+"%(filename)s has been copied to %(grub_bg)s and is the default background "
+"for grub. Click OK to update grub with the new settings so you can see your "
+"picture on the next boot."
+
+msgid ""
+"%s has been copied to /etc/remastersys/isolinux/splash.png becoming the "
+"default background for the LIVE menu."
+msgstr ""
+"%s has been copied to /etc/remastersys/isolinux/splash.png becoming the "
+"default background for the LIVE menu."
+
+msgid ""
+"<span color=\"red\">WARNING: make sure you chose user with a SMALL home "
+"directory, not some with gigabytes of data!\n"
+"Even so, you must manually check the contents of /etc/skel afterwards, and "
+"make sure it does not contain sensitive information (especially in the "
+"hidden folders)!</span>"
+msgstr ""
+"<span color=\"red\">WARNING: make sure you chose user with a SMALL home "
+"directory, not some with gigabytes of data!\n"
+"Even so, you must manually check the contents of /etc/skel afterwards, and "
+"make sure it does not contain sensitive information (especially in the "
+"hidden folders)!</span>"
+
+msgid ""
+"<span color=\"red\">Working directory must be on a drive formatted with a "
+"linux filesystem. Remastersys will create the \"remastersys\" working folder "
+"in this folder and will not harm any other files or folders.</span>"
+msgstr ""
+"<span color=\"red\">Working directory must be on a drive formatted with a "
+"linux filesystem. Remastersys will create the \"remastersys\" working folder "
+"in this folder and will not harm any other files or folders.</span>"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "All files"
+msgstr "All files"
+
+msgid "Are you sure you want to delete the contents of /etc/skel?"
+msgstr "Are you sure you want to delete the contents of /etc/skel?"
+
+msgid ""
+"Auto-select the plymouth theme, based on the update-alternatives information"
+msgstr ""
+"Auto-select the plymouth theme, based on the update-alternatives information"
+
+msgid "Automatic selection"
+msgstr "Automatic selection"
+
+msgid "Available plymouth themes:"
+msgstr "Available plymouth themes:"
+
+msgid "Backup"
+msgstr "Backup"
+
+msgid "Backup complete system including user data"
+msgstr "Backup complete system including user data"
+
+msgid "Boot menu picture for the installed environment"
+msgstr "Boot menu picture for the installed environment"
+
+msgid "Boot menu picture for the live cd (640x480 PNG)"
+msgstr "Boot menu picture for the live cd (640x480 PNG)"
+
+msgid "Bulgarian - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "Bulgarian - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+
+msgid "CD Label"
+msgstr "CD Label"
+
+msgid "Clear everything from /etc/skel"
+msgstr "Clear everything from /etc/skel"
+
+msgid "Completed. Click OK to return to the main menu."
+msgstr "Completed. Click OK to return to the main menu."
+
+msgid "Copying files, please wait..."
+msgstr "Copying files, please wait..."
+
+msgid "Create"
+msgstr "Create"
+
+msgid "Create a simple static plymouth theme"
+msgstr "Create a simple static plymouth theme"
+
+msgid "Default settings"
+msgstr "Default settings"
+
+msgid "Directory"
+msgstr "Directory"
+
+msgid "Dist"
+msgstr "Dist"
+
+msgid "Distcdfs"
+msgstr "Distcdfs"
+
+msgid "Distiso"
+msgstr "Distiso"
+
+msgid "Done! Now plymouth will use the default, auto-selected theme."
+msgstr "Done! Now plymouth will use the default, auto-selected theme."
+
+msgid "English - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "English - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+
+msgid "Enter your password to perform administrative tasks"
+msgstr "Enter your password to perform administrative tasks"
+
+msgid ""
+"Enter your plymouth theme name. eg. Remastersys Theme (please use only "
+"alphanumeric characters)"
+msgstr ""
+"Enter your plymouth theme name. eg. Remastersys Theme (please use only "
+"alphanumeric characters)"
+
+msgid "Filename"
+msgstr "Filename"
+
+msgid "Files to exclude"
+msgstr "Files to exclude"
+
+msgid "GRUB has been updated."
+msgstr "GRUB has been updated."
+
+msgid "Home directory"
+msgstr "Home directory"
+
+msgid ""
+"In order to be able to preview plymouth themes, you have to install plymouth-"
+"x11!"
+msgstr ""
+"In order to be able to preview plymouth themes, you have to install plymouth-"
+"x11!"
+
+msgid ""
+"It is necessary to close all other windows and unmount any network shares "
+"while running Remastersys Backup. Please do so now and then click OK when "
+"you are ready to continue."
+msgstr ""
+"It is necessary to close all other windows and unmount any network shares "
+"while running Remastersys Backup. Please do so now and then click OK when "
+"you are ready to continue."
+
+msgid "Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+
+msgid ""
+"Make a Distributable copy filesystem only - good if you want to add files to "
+"the cd"
+msgstr ""
+"Make a Distributable copy filesystem only - good if you want to add files to "
+"the cd"
+
+msgid ""
+"Make a Distributable copy to share with friends - both cdfs and iso will be "
+"created"
+msgstr ""
+"Make a Distributable copy to share with friends - both cdfs and iso will be "
+"created"
+
+msgid ""
+"Make distributable iso file only - cd filesystem must have been completed "
+"already"
+msgstr ""
+"Make distributable iso file only - cd filesystem must have been completed "
+"already"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Name:"
+msgstr "Name:"
+
+msgid "Output"
+msgstr "Output"
+
+msgid "PNG Images"
+msgstr "PNG Images"
+
+msgid "Please, select a theme!"
+msgstr "Please, select a theme!"
+
+msgid "Plymouth theme"
+msgstr "Plymouth theme"
+
+msgid "Portuguese - Wallison Alves <wallisonalvesdeoliveira@gmail.com>"
+msgstr "Portuguese - Wallison Alves <wallisonalvesdeoliveira@gmail.com>"
+
+msgid "Preview"
+msgstr "Preview"
+
+msgid "Preview the currently selected plymouth theme"
+msgstr "Preview the currently selected plymouth theme"
+
+msgid ""
+"PyGTK GUI for Remastersys\n"
+"Copyright (C) 2011,2016 Krasimir S. Stefanov, Tony Brijeski, Wallison Alves\n"
+"Licence: GPLv3.0\n"
+"http://www.gnu.org/licenses/."
+msgstr ""
+"PyGTK GUI for Remastersys\n"
+"Copyright (C) 2011,2016 Krasimir S. Stefanov, Tony Brijeski, Wallison Alves\n"
+"Licence: GPLv3.0\n"
+"http://www.gnu.org/licenses/."
+
+msgid "Remastersys"
+msgstr "Remastersys"
+
+msgid "Remove temporary files"
+msgstr "Remove temporary files"
+
+msgid "Select"
+msgstr "Select"
+
+msgid "Select 1920x1080 PNG image..."
+msgstr "Select 1920x1080 PNG image..."
+
+msgid "Select 640x480 PNG image..."
+msgstr "Select 640x480 PNG image..."
+
+msgid "Select image..."
+msgstr "Select image..."
+
+msgid "Select plymouth theme"
+msgstr "Select plymouth theme"
+
+msgid "Select the user, whose settings to be used as default:"
+msgstr "Select the user, whose settings to be used as default:"
+
+msgid "Select working directory"
+msgstr "Select working directory"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Show install icon on Backup mode desktop"
+msgstr "Show install icon on Backup mode desktop"
+
+msgid "Simplified Chinese - Mutse Young <yyhoo2.young@gmail.com>"
+msgstr "Simplified Chinese - Mutse Young <yyhoo2.young@gmail.com>"
+
+msgid "Squashfs options"
+msgstr "Squashfs options"
+
+msgid ""
+"The livecd filesystem does not exist. Click OK to go back to the main menu "
+"and try the normal Dist mode or the Dist CDFS again."
+msgstr ""
+"The livecd filesystem does not exist. Click OK to go back to the main menu "
+"and try the normal Dist mode or the Dist CDFS again."
+
+msgid "The process was interrupted!"
+msgstr "The process was interrupted!"
+
+msgid "The theme \"%s\" already exists! Do you want to overwrite it?"
+msgstr "The theme \"%s\" already exists! Do you want to overwrite it?"
+
+msgid ""
+"This will remove all the files from the temporary directory. Click OK to "
+"proceed."
+msgstr ""
+"This will remove all the files from the temporary directory. Click OK to "
+"proceed."
+
+msgid "Tony Brijeski <tb6517@yahoo.com>"
+msgstr "Tony Brijeski <tb6517@yahoo.com>"
+
+msgid "Traditional Chinese - Kent Chang <kentxchang@gmail.com>"
+msgstr "Traditional Chinese - Kent Chang <kentchang@gmail.com>"
+
+msgid "URL for USB Creator"
+msgstr "URL for USB Creator"
+
+msgid "Updating GRUB, please wait..."
+msgstr "Updating GRUB, please wait..."
+
+msgid "Updating initramfs, please wait..."
+msgstr "Updating initramfs, please wait..."
+
+msgid "Use the currently selected plymouth theme"
+msgstr "Use the currently selected plymouth theme"
+
+msgid "User"
+msgstr "User"
+
+msgid "User, whose current settings will be used as default"
+msgstr "User, whose current settings will be used as default"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Wallison Alves <wallisonalvesdeoliveira@gmail.com>"
+msgstr "Wallison Alves <wallisonalvesdeoliveira@gmail.com>"
+
+msgid "Working directory"
+msgstr "Working directory"
+
+msgid ""
+"You have selected Backup Mode. Do not interrupt this process. Click OK to "
+"Start the Backup LiveCD/DVD/USB process."
+msgstr ""
+"You have selected Backup Mode. Do not interrupt this process. Click OK to "
+"Start the Backup LiveCD/DVD/USB process."
+
+msgid ""
+"You have selected Dist CDFS Mode. Click OK to Start the Distributable LiveCD/"
+"DVD/USB filesystem build process."
+msgstr ""
+"You have selected Dist CDFS Mode. Click OK to Start the Distributable LiveCD/"
+"DVD/USB filesystem build process."
+
+msgid "You have selected Dist ISO Mode. Click OK to create the iso file."
+msgstr "You have selected Dist ISO Mode. Click OK to create the iso file."
+
+msgid ""
+"You have selected Dist Mode. Click OK to Start the Distributable LiveCD/DVD/"
+"USB process."
+msgstr ""
+"You have selected Dist Mode. Click OK to Start the Distributable LiveCD/DVD/"
+"USB process."
+
+msgid "You must specify theme name!"
+msgstr "You must specify theme name!"
+
+msgid ""
+"Your %(iso)s and %(iso)s.md5 files are ready in %(dir)s. It is recommended "
+"to test it in a virtual machine or on a rewritable cd/dvd/usb to ensure it "
+"works as desired. Click on OK to return to the main menu."
+msgstr ""
+"Your %(iso)s and %(iso)s.md5 files are ready in %(dir)s. It is recommended "
+"to test it in a virtual machine or on a rewritable cd/dvd/usb to ensure it "
+"works as desired. Click on OK to return to the main menu."
+
+msgid ""
+"Your livecd filesystem is ready in %s. You can now add files to the cd and "
+"then run the Distiso option when you are done. Click on OK to return to the "
+"main menu."
+msgstr ""
+"Your livecd filesystem is ready in %s. You can now add files to the cd and "
+"then run the Distiso option when you are done. Click on OK to return to the "
+"main menu."
+
+msgid ""
+"Your plymouth theme named %(theme_name)s with the picture %(theme_pic)s has "
+"been created."
+msgstr ""
+"Your plymouth theme named %(theme_name)s with the picture %(theme_pic)s has "
+"been created."

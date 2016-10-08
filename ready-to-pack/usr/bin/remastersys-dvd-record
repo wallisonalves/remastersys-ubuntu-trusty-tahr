@@ -1,0 +1,38 @@
+#!/bin/sh
+
+# DVD Record Tool
+# by Tony Brijeski (c)2009 GPLv2
+#
+# Modified by Wallion Alves
+# Copyright 2016 Under the GPL2 License
+
+
+DIALOG="`which zenity` --width=500 --height=100"
+TITLE="--title="
+TEXT="--text="
+ENTRY="--entry "
+ENTRYTEXT="--entry-text "
+FILESELECTION="--file-selection "
+MENU="--list --column=Check --column=Device --column=Size"
+YESNO="--question "
+MSGBOX="--info "
+PASSWORD="--entry --hide-text "
+TITLETEXT="DVD recording"
+CHECK="--checklist"
+DIR="--separator "
+rm /tmp/remastersys-dvd-record
+ISO=`$DIALOG $TITLE"Choose an .ISO to record in the DVD" $FILESELECTION --file-filter=*.iso`
+if [ $? != 0 ]; then
+exit 1
+fi
+echo "ISO=\"$ISO\"" >> /tmp/remastersys-dvd-record
+. /tmp/remastersys-dvd-record
+echo 'Preparing the record'
+echo
+echo 'Ready Label'
+echo
+echo 'Writing the .ISO image on the DVD, wait'
+echo
+cdrskin -v -fs=16M speed=8 Lin=0,0,0 -data $ISO 
+echo
+exit

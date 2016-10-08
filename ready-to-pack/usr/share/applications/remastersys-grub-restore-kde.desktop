@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Remastersys Grub Restore
+GenericName=Grub Restore
+Comment=Restore grub
+Exec=kdesudo remastersys-grub-restore gui
+Icon=remastersys-grub-restore
+Terminal=false
+MultipleArgs=false
+Type=Application
+StartupNotify=true
+Categories=System;
+OnlyShowIn=KDE;
